@@ -1,0 +1,13 @@
+*~
+*.userprefs
+*.pidb
+*.dll
+*.tar.gz
+*.tar.bz2
+*.designer.cs
+
+/bin
+AssemblyInfo.cs
+gtk-gui/*.cs
+dspmg/*.cs
+

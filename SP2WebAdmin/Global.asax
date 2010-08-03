@@ -1,0 +1,1 @@
+<%@ Application Inherits="SP2WebAdmin.Global" %>

@@ -1,0 +1,96 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "presenterd", "presenterd\presenterd.csproj", "{AB2C359D-A5D1-42C9-B797-88E450AC54D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "libpresenterd", "libpresenterd\libpresenterd.csproj", "{F4B4D1DE-8226-4B55-B59F-3D23ABA0E424}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "presenter-test", "presenter-test\presenter-test.csproj", "{CC8918AF-CAF2-43CA-82B9-88DFE5E07F64}"
+EndProject
+Project("{9344bdbb-3e7f-41fc-a0dd-8665d75ee146}") = "pygclient", "pygclient\pygclient.mdproj", "{A815C96E-E36B-4CE9-BD4D-EAE8ACFD96F6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GTKClient", "GTKClient\GTKClient.csproj", "{2AD08971-47C8-4657-90CE-34D2D07E9C0C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SP2WebAdmin", "SP2WebAdmin\SP2WebAdmin.csproj", "{1EB4BD71-04B1-4B7F-8DE4-22BAC7A25214}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SP2WebViewer", "SP2WebViewer\SP2WebViewer.csproj", "{DDCA17FF-F95C-4C30-9191-21CB2CD8220C}"
+EndProject
+Project("{9344bdbb-3e7f-41fc-a0dd-8665d75ee146}") = "packaging", "packaging\packaging.mdproj", "{7C27FE13-DC00-4D15-AC52-B4A811412C06}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+		Default|Any CPU = Default|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1EB4BD71-04B1-4B7F-8DE4-22BAC7A25214}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1EB4BD71-04B1-4B7F-8DE4-22BAC7A25214}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1EB4BD71-04B1-4B7F-8DE4-22BAC7A25214}.Default|Any CPU.ActiveCfg = Debug|Any CPU
+		{1EB4BD71-04B1-4B7F-8DE4-22BAC7A25214}.Default|Any CPU.Build.0 = Debug|Any CPU
+		{1EB4BD71-04B1-4B7F-8DE4-22BAC7A25214}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1EB4BD71-04B1-4B7F-8DE4-22BAC7A25214}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2AD08971-47C8-4657-90CE-34D2D07E9C0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2AD08971-47C8-4657-90CE-34D2D07E9C0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2AD08971-47C8-4657-90CE-34D2D07E9C0C}.Default|Any CPU.ActiveCfg = Debug|Any CPU
+		{2AD08971-47C8-4657-90CE-34D2D07E9C0C}.Default|Any CPU.Build.0 = Debug|Any CPU
+		{2AD08971-47C8-4657-90CE-34D2D07E9C0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2AD08971-47C8-4657-90CE-34D2D07E9C0C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C27FE13-DC00-4D15-AC52-B4A811412C06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C27FE13-DC00-4D15-AC52-B4A811412C06}.Default|Any CPU.ActiveCfg = Default|Any CPU
+		{7C27FE13-DC00-4D15-AC52-B4A811412C06}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A815C96E-E36B-4CE9-BD4D-EAE8ACFD96F6}.Debug|Any CPU.ActiveCfg = Default|Any CPU
+		{A815C96E-E36B-4CE9-BD4D-EAE8ACFD96F6}.Default|Any CPU.ActiveCfg = Default|Any CPU
+		{A815C96E-E36B-4CE9-BD4D-EAE8ACFD96F6}.Default|Any CPU.Build.0 = Default|Any CPU
+		{A815C96E-E36B-4CE9-BD4D-EAE8ACFD96F6}.Release|Any CPU.ActiveCfg = Default|Any CPU
+		{AB2C359D-A5D1-42C9-B797-88E450AC54D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB2C359D-A5D1-42C9-B797-88E450AC54D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB2C359D-A5D1-42C9-B797-88E450AC54D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB2C359D-A5D1-42C9-B797-88E450AC54D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC8918AF-CAF2-43CA-82B9-88DFE5E07F64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC8918AF-CAF2-43CA-82B9-88DFE5E07F64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC8918AF-CAF2-43CA-82B9-88DFE5E07F64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC8918AF-CAF2-43CA-82B9-88DFE5E07F64}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DDCA17FF-F95C-4C30-9191-21CB2CD8220C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDCA17FF-F95C-4C30-9191-21CB2CD8220C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDCA17FF-F95C-4C30-9191-21CB2CD8220C}.Default|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDCA17FF-F95C-4C30-9191-21CB2CD8220C}.Default|Any CPU.Build.0 = Debug|Any CPU
+		{DDCA17FF-F95C-4C30-9191-21CB2CD8220C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDCA17FF-F95C-4C30-9191-21CB2CD8220C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4B4D1DE-8226-4B55-B59F-3D23ABA0E424}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4B4D1DE-8226-4B55-B59F-3D23ABA0E424}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4B4D1DE-8226-4B55-B59F-3D23ABA0E424}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4B4D1DE-8226-4B55-B59F-3D23ABA0E424}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = SP2WebViewer\SP2WebViewer.csproj
+		Policies = $0
+		$0.DotNetNamingPolicy = $1
+		$1.DirectoryNamespaceAssociation = PrefixedHierarchical
+		$1.ResourceNamePolicy = FileFormatDefault
+		$0.TextStylePolicy = $2
+		$2.FileWidth = 120
+		$2.TabWidth = 4
+		$2.inheritsSet = Mono
+		$2.inheritsScope = text/plain
+		$2.scope = text/plain
+		$0.TextStylePolicy = $3
+		$3.inheritsSet = null
+		$3.scope = text/x-csharp
+		$0.CSharpFormattingPolicy = $4
+		$4.inheritsSet = Mono
+		$4.inheritsScope = text/x-csharp
+		$4.scope = text/x-csharp
+		$0.TextStylePolicy = $5
+		$5.inheritsSet = null
+		$5.scope = text/x-python
+		$0.StandardHeader = $6
+		$6.Text = 
+		$6.inheritsSet = MITX11License
+		$0.VersionControlPolicy = $7
+		$7.inheritsSet = Mono
+		$0.ChangeLogPolicy = $8
+		$8.UpdateMode = None
+		$8.inheritsSet = Mono
+	EndGlobalSection
+EndGlobal

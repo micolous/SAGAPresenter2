@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="3.5">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{C6E1F886-E868-4680-901C-1DD08FBEF6C4}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>SP2WebServer</RootNamespace>
+    <AssemblyName>SP2WebServer</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <EnvironmentVariables>
+      <EnvironmentVariables>
+        <Variable name="DBUS_VERBOSE" value="1" />
+      </EnvironmentVariables>
+    </EnvironmentVariables>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>none</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="MiniHttpd, Version=1.2.0.386, Culture=neutral, PublicKeyToken=d448f7f1d558b82a">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>MiniHttpd.dll</HintPath>
+    </Reference>
+    <Reference Include="TemplateMaschine, Version=0.8.3569.28176, Culture=neutral, PublicKeyToken=null">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\SAGAPresenter\TemplateMaschine\bin\Release\TemplateMaschine.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Main.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+    <Compile Include="WebAuthenticatior.cs" />
+    <Compile Include="HTTPd\Index.cs" />
+    <Compile Include="HTTPd\SimplePageWrapper.cs" />
+    <Compile Include="HTTPDErrorException.cs" />
+    <Compile Include="HTTPd\MarqueeCommit.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="HTTPd\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\libpresenterd\libpresenterd.csproj">
+      <Project>{F4B4D1DE-8226-4B55-B59F-3D23ABA0E424}</Project>
+      <Name>libpresenterd</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="HTTPd\Error.template" />
+    <EmbeddedResource Include="HTTPd\Index.template" />
+    <EmbeddedResource Include="HTTPd\Redirect.template" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+</Project>

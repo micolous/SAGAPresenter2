@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="3.5">
+  <PropertyGroup>
+    <ItemType>PackagingProject</ItemType>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{7C27FE13-DC00-4D15-AC52-B4A811412C06}</ProjectGuid>
+    <Packages>
+      <Packages>
+        <Package name="Linux Binaries">
+          <Builder targetFile="..\SAGAPresenter2.tar.bz2" platform="Linux" configuration="Debug" ctype="BinariesZipPackageBuilder">
+            <ChildEntries>
+              <SolutionItemReference path="..\presenterd\presenterd.csproj" />
+              <SolutionItemReference path="..\GTKClient\GTKClient.csproj" />
+              <SolutionItemReference path="..\presenter-test\presenter-test.csproj" />
+            </ChildEntries>
+            <RootEntry path="..\SAGAPresenter2.sln" id=":root:" />
+          </Builder>
+        </Package>
+        <Package name="SP2WebViewer">
+          <Builder targetFile="..\SP2WebViewer.tar.bz2" platform="Linux" configuration="Debug" ctype="BinariesZipPackageBuilder">
+            <RootEntry path="..\SP2WebViewer\SP2WebViewer.csproj" />
+          </Builder>
+        </Package>
+        <Package name="SP2WebAdmin">
+          <Builder targetFile="..\SP2WebAdmin.tar.bz2" platform="Linux" configuration="Debug" ctype="BinariesZipPackageBuilder">
+            <RootEntry path="..\SP2WebAdmin\SP2WebAdmin.csproj" />
+          </Builder>
+        </Package>
+      </Packages>
+    </Packages>
+  </PropertyGroup>
+</Project>

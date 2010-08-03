@@ -1,0 +1,9 @@
+<%@ Argument Name="Redirect" Type="string" %>
+
+<html>
+	<head>
+		<title>Redirecting...</title>
+		<meta http-equiv="Refresh" content="0; url=<%=Redirect%>">
+	</head>
+	<body></body>
+</html>

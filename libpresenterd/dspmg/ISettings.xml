@@ -1,0 +1,8 @@
+<interface iname="ISettings" name="Settings" inamespace="SAGAPresenter.libpresenterd" namespace="SAGAPresenter.presenterd">
+	<use>System</use>
+	
+	<property name="EventName" type="string">
+		<doc>The name of the event.  This is a "short" version, shown after the logo.</doc>
+	</property>
+
+</interface>

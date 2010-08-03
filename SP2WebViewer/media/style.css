@@ -1,0 +1,60 @@
+html {
+	background-color: #000;
+	color: #fff;
+	font-size: 1.9em;
+}
+
+@font-face {
+	font-family: 'Console Logos';
+	src: url('ConsoleLogos.ttf');
+}
+
+.consolelogos {
+	font-family: 'Console Logos';
+}
+
+table.ct, table.ct tr, table.ct td, form, div, h1, body, html {
+	border: 0;
+	padding: 0;
+	margin: 0;
+}
+
+#clock, .sfis {
+	text-align: right;
+}
+
+#clock {
+	font-size: 1.5em;
+}
+
+/* sadly fixed positioning doesn't play nice with iphone, fennec,
+   and android, though it looks nice on computers.
+table.ct {
+	margin-top: 4em;
+	margin-bottom: 2.0em;
+}
+
+marquee {
+	background-color: #000;
+	position: fixed;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+*/
+
+table.h {
+/*
+	background-color: #000;
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 0;
+*/
+	width: 100%;
+}
+
+.time {
+	font-weight: bold;
+}
+

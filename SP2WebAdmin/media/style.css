@@ -1,0 +1,13 @@
+@font-face {
+	font-family: 'Console Logos';
+	src: url('/media/ConsoleLogos.ttf');
+}
+
+.consolelogos {
+	font-family: 'Console Logos';
+}
+
+table.platformcodes td {
+	text-align: center;
+	font-size: 2em;
+}

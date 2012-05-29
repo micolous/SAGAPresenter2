@@ -15,7 +15,7 @@ SAGAPresenter2 improved on this by seperating the view control engine into a sep
 ## Roadmap ##
 
 * Get building with current Mono, etc.
-* Port [CGServer (the PETSCII/C64 display mode](http://micolous.id.au/archives/2009/09/30/retrolan-fun/) from SAGAPresenter1 to a daemon in SAGAPresenter2.
+* Port [CGServer (the PETSCII/C64 display mode)](http://micolous.id.au/archives/2009/09/30/retrolan-fun/) from SAGAPresenter1 to a daemon in SAGAPresenter2.
 * Make GTKClient work with non-1024x768 displays.
 * Remove unused experimental codes, or replace them with something that works.
 * Package it.
